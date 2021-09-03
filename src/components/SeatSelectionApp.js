@@ -62,7 +62,7 @@ export default function SeatSelectionApp() {
                     <Col>
                         <h1>Data</h1>
                         <h2>Inputs</h2>
-                        <p className="text-muted">All input data is editable but is not validated on input. Initial state is an example offer. Refreshing the pge will re-load the example.</p>
+                        <p className="text-muted">All input data is editable but is not validated on input. Initial state is an example offer. Refreshing the page will re-load the example.</p>
                         <Form>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label>Passengers</Form.Label>
