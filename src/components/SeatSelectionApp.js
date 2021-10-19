@@ -89,7 +89,7 @@ export default function SeatSelectionApp() {
                                     value={JSON.stringify(seatMaps, null, 4)} />
                             </Form.Group>
                             <h2>Outpus</h2>
-                            <p className="text-muted">This is the data output byt the seat selection component.</p>
+                            <p className="text-muted">This is the data output by the seat selection component.</p>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
                                 <Form.Label>Selected Seats</Form.Label>
                                 <Form.Control as="textarea" disabled={true} rows={6} value={JSON.stringify(seatSelection, null, 4)} />
