@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Navbar, Container, Row, Col, Button, Modal, Form } from 'react-bootstrap';
 
 import { SeatSelection } from '@duffel/components'
+import '@duffel/components/dist/SeatSelection.min.css'
+
 import DATA from "../services/data.sevice";
 
 
@@ -47,7 +49,7 @@ export default function SeatSelectionApp() {
         <div>
             <Navbar bg="light">
                 <Container>
-                    <Navbar.Brand href="#home">🛫 &#127796;</Navbar.Brand>
+                    <Navbar.Brand href="#home"><span role='img' aria-label='plane and palm tree'>🛫 &#127796;</span></Navbar.Brand>
                 </Container>
             </Navbar>
 
@@ -55,7 +57,7 @@ export default function SeatSelectionApp() {
 
                 <Row style={{ margin: '40px 0' }}>
                     <Col>
-                        <h1>Component: Seat Selector 💺</h1>
+                        <h1>Component: Seat Selector <span role='img' aria-label='seat'>💺</span></h1>
                         <p className="text-muted">Click the button below to open the seat selection modal.</p>
                         <Button variant='success' className='m-auto' onClick={toggleShowSeatMap}>Show Seat Map!</Button>
                     </Col>
