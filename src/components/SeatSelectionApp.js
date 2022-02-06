@@ -4,7 +4,7 @@ import { Navbar, Container, Row, Col, Button, Modal, Form } from 'react-bootstra
 import { SeatSelection } from '@duffel/components'
 import '@duffel/components/dist/SeatSelection.min.css'
 
-import DATA from "../services/data.sevice";
+import DATA from "../services/data.service";
 
 
 const INITIAL_PASSENGERS = DATA.PASSENGERS
@@ -90,7 +90,7 @@ export default function SeatSelectionApp() {
                                     onChange={handleSeatMapsInputChange}
                                     value={JSON.stringify(seatMaps, null, 4)} />
                             </Form.Group>
-                            <h2>Outpus</h2>
+                            <h2>Outputs</h2>
                             <p className="text-muted">This is the data output by the seat selection component.</p>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea3">
                                 <Form.Label>Selected Seats</Form.Label>

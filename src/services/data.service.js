@@ -1,7 +1,7 @@
 /* 
     OFFER is an example response from https://api.duffel.com/air/offers/
-    SEAT_MAPS is an example reasponse from https://api.duffel.com/air/seat_maps?offer_id=
-    PASSENGERS is an example of the passengers object required by the componenet, can be constructed from the OFFER object 
+    SEAT_MAPS is an example response from https://api.duffel.com/air/seat_maps?offer_id=
+    PASSENGERS is an example of the passengers object required by the component, can be constructed from the OFFER object 
 */
 
 const OFFER = {
