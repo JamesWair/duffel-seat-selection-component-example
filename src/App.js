@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react'
 
-import SeatSelectionApp from './components/SeatSelectionApp'
+import DuffelComponentApp from './components/DuffelComponentApp'
 
 function App() {
   return (
-    <SeatSelectionApp />
+    <DuffelComponentApp />
   );
 }
 
